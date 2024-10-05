@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning</title>
+  <style>
+    .red-circle {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+    
+    .blue-box {
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      top: 200px;
+      left: 200px;
+      margin-left: 1.5%;
+    }
+.green-shape {
+      background-color: green;
+      width: 200px;
+      height: 300px;
+      position: relative;
+      border-radius: 45%;
+}
+
+.green-shape2 {
+      background-color: green;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 45%;
+      position: absolute;
+      margin-left: 500px;
+}
+
+.yellow-shape {
+      background-color: yellow;
+      width: 1000px;
+      height: 300px;
+     position:fixed;
+      border-radius: 65%;
+}
+
+.yellow-shape2 {
+  width: 200px;
+      height: 200px;
+      background-color: yellow;
+      border-radius: 50%;
+      top: 150px;
+      left: 250px;
+      margin-left: 20px;
+      padding-top: 20px;
+}
+
+.yellow-shape3 {
+  width: 200px;
+      height: 200px;
+      background-color: yellow;
+      border-radius: 50%;
+      top: 150px;
+      left: 250px;
+      margin-top: 20%;
+      margin-left: 5%;
+      padding-top: 20px;
+      position: relative;
+}
+
+.white-text {
+    color: red;
+    text-align: center;
+    padding: 10%;
+   
+}
+
+.fix-pos {
+    color:brown;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+.fix-pos2 {
+    color:brown;
+    text-align: center;
+    padding-top: 7%;
+    padding-right: 10%;
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="yellow-shape">
+                             <h1 class="fix-pos">Are you a follower of yesterday?</h1>
+
+                             <h2 class="fix-pos2">Or a creator of tomorrow !!!</h2>
+  </div>
+
+                                     <div class="blue-box">
+                                                   <div class="red-circle"></div>
+                                     </div>
+
+
+
+<div class="green-shape"></div>
+
+                                        <div class="blue-box">
+                                                          <div class="red-circle"></div>
+                                                          <div class="yellow-shape2">
+                                                                  <div class="green-shape2"></div>
+                                                                         <P class="white-text">This shows all sorts of ways for designing layouts, through use 
+                                                                                            of positioning, padding, margins, etc...</P>
+                                                                  </div>
+                                                          </div>
+                                        </div>
+
+                                    
+
+                                        <div class="yellow-shape3">
+                                           
+                                            <P class="white-text">In this example this paragraph is written into the code before the green div,
+                                                this has moved the position of the green div.
+                                            </P>
+
+                                                <div class="green-shape2"></div>
+
+                                               
+
+                                                <div class="red-circle">    </div>
+
+                                        
+                                                   
+                 </div>
+
+                 
+</body>
+
+
+</html>
